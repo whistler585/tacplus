@@ -12,5 +12,6 @@ RUN mkdir /var/log/tacacs
 
 COPY tac_plus.conf /etc/tacacs+
 COPY docker-entrypoint.sh /
+RUN chmod +x /docker-entrypoint.sh
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
