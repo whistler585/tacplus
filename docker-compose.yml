@@ -1,0 +1,8 @@
+version: '2'
+services:
+    tacplus:
+        image: tacplus
+        ports:
+            - '49:49'
+        volumes:
+            - "./config:/etc/tacacs+/:ro"
