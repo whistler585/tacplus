@@ -12,3 +12,8 @@ Run with:
 ```php
 docker-compose up
 ```
+
+Stop with:
+```php
+docker-compose stop
+```
