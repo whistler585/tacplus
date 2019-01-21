@@ -5,4 +5,4 @@ services:
         ports:
             - '49:49'
         volumes:
-            - "./config:/etc/tacacs+/:ro"
+            - "./:/etc/tacacs+/:ro"
